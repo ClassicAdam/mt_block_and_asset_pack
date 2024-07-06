@@ -1,4 +1,3 @@
-
 -- Registering new nodes below
 minetest.register_node("mt_block_and_asset_pack:floor_decorative_1", {
     description = "Flore Decorative 1",
@@ -79,5 +78,3 @@ minetest.register_node("mt_block_and_asset_pack:red_light_panel", {
 	groups = {cracky=1, dig_generic = 3},
 	is_ground_content = false,
 })
-
--- on_place = minetest.rotate_node
