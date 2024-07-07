@@ -1,14 +1,48 @@
 -- Registering new nodes below
+minetest.register_node("mt_block_and_asset_pack:large_gray_bowl", {
+    description = "Large Gray Bowl",
+    drawtype = "mesh",
+    mesh = "large_bowl.obj",
+    sunlight_propagates = true,
+    paramtype2 = "facedir",
+    tiles = {"gray.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:large_white_bowl", {
+    description = "Large White Bowl",
+    drawtype = "mesh",
+    mesh = "large_bowl.obj",
+    sunlight_propagates = true,
+    paramtype2 = "facedir",
+    tiles = {"off-white.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:small_gray_bowl", {
+    description = "Small Gray Bowl",
+    drawtype = "mesh",
+    mesh = "small_bowl.obj",
+    sunlight_propagates = true,
+    paramtype2 = "facedir",
+    tiles = {"gray.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:small_white_bowl", {
+    description = "Small White Bowl",
+    drawtype = "mesh",
+    mesh = "small_bowl.obj",
+    sunlight_propagates = true,
+    paramtype2 = "facedir",
+    tiles = {"off-white.png"},
+    groups = { cracky=2 },
+})
 minetest.register_node("mt_block_and_asset_pack:floor_decorative_1", {
-    description = "Flore Decorative 1",
+    description = "Floor Decorative 1",
     tiles = {"floor_decorative_1.png"},
-    is_ground_content = true,
     groups = {cracky=3, stone=1}
 })
 minetest.register_node("mt_block_and_asset_pack:floor_decorative_2", {
     description = "Floor Decorative 2",
     tiles = {"floor_decorative_2.png"},
-    is_ground_content = true,
     groups = {cracky=3, stone=1}
 })
 minetest.register_node("mt_block_and_asset_pack:sphere", {
@@ -75,6 +109,6 @@ minetest.register_node("mt_block_and_asset_pack:red_light_panel", {
     selection_box = {
         type = "wallmounted",
     },
-	groups = {cracky=1, dig_generic = 3},
-	is_ground_content = false,
+    groups = {snappy=2,choppy=2,oddly_breakable_by_hand=3,flammable=3},
+    walkable = false,
 })
