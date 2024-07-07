@@ -3,6 +3,7 @@ This mod just contains a lot of random nodes.  Some of the nodes are below:
 - A plane sphere the size of a block
 - Salt and pepper shakers
 - Some decorative floor nodes
+- A couple bowls
 
 Hoping to continue adding more on an ongoing basis.
 
