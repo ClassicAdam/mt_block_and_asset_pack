@@ -10,3 +10,9 @@ Hoping to continue adding more on an ongoing basis.
 To install, just drop into your Minetest mods folder.
 
 Please enjoy and share!
+
+===== CHANGE LOG =====
+
+0.1.1
+- Fixed lighting issue
+- Added bowls
