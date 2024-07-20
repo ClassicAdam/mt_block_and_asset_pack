@@ -1,4 +1,24 @@
 -- Registering new nodes below
+minetest.register_node("mt_block_and_asset_pack:peace_monument", {
+    description = "Peace Monument",
+    drawtype = "mesh",
+    mesh = "peace_monument.obj",
+    sunlight_propagates = true,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    tiles = {"gray.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:gray_block_1", {
+    description = "Gray Block 1",
+    tiles = {"gray_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:redish_block_1", {
+    description = "Redish Block 1",
+    tiles = {"redish_block.png"},
+    groups = {cracky=3, stone=1}
+})
 minetest.register_node("mt_block_and_asset_pack:large_gray_bowl", {
     description = "Large Gray Bowl",
     drawtype = "mesh",
