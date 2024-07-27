@@ -9,9 +9,41 @@ minetest.register_node("mt_block_and_asset_pack:peace_monument", {
     tiles = {"gray.png"},
     groups = { cracky=2 },
 })
+
+minetest.register_node("mt_block_and_asset_pack:tealish_block_1", {
+    description = "Tealish Block 1",
+    tiles = {"tealish_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:purpleish_block_1", {
+    description = "Purpleish Block 1",
+    tiles = {"purpleish_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:orangeish_block_1", {
+    description = "Orangeish Block 1",
+    tiles = {"orangeish_block.png"},
+    groups = {cracky=3, stone=1}
+})
+
 minetest.register_node("mt_block_and_asset_pack:gray_block_1", {
     description = "Gray Block 1",
     tiles = {"gray_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:yellowish_block_1", {
+    description = "Yellowish Block 1",
+    tiles = {"yellowish_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:blueish_block_1", {
+    description = "Blueish Block 1",
+    tiles = {"blueish_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:greenish_block_1", {
+    description = "Greenish Block 1",
+    tiles = {"greenish_block.png"},
     groups = {cracky=3, stone=1}
 })
 minetest.register_node("mt_block_and_asset_pack:redish_block_1", {

@@ -19,6 +19,9 @@ Please enjoy and share!
 
 ===== CHANGE LOG =====
 
+0.1.3
+- Added a few more colorful blocks
+
 0.1.2
 - Added a monument to peace.
 - Added a couple blocks.
