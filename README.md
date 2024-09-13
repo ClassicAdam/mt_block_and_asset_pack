@@ -19,6 +19,9 @@ Please enjoy and share!
 
 ===== CHANGE LOG =====
 
+0.1.4
+- Added five more blocks with an X design.
+
 0.1.3
 - Added a few more colorful blocks
 

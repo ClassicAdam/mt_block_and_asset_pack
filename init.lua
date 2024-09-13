@@ -21,6 +21,31 @@ minetest.register_node("mt_block_and_asset_pack:peace_monument", {
     tiles = {"gray.png"},
     groups = { cracky=2 },
 })
+minetest.register_node("mt_block_and_asset_pack:x_blue_block", {
+    description = "X Blue Block",
+    tiles = {"x_blue_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:x_green_block", {
+    description = "X Green Block",
+    tiles = {"x_green_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:x_red_block", {
+    description = "X Red Block",
+    tiles = {"x_red_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:x_yellow_block", {
+    description = "X Yellow Block",
+    tiles = {"x_yellow_block.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:x_gray_block", {
+    description = "X Gray Block",
+    tiles = {"x_gray_block.png"},
+    groups = {cracky=3, stone=1}
+})
 minetest.register_node("mt_block_and_asset_pack:tealish_block_1", {
     description = "Tealish Block 1",
     tiles = {"tealish_block.png"},
