@@ -18,6 +18,8 @@ Please enjoy and share!
 
 
 ===== CHANGE LOG =====
+0.1.5
+- Added some wood blocks with realistic textures.
 
 0.1.4
 - Added five more blocks with an X design.

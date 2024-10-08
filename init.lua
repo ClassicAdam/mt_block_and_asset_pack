@@ -21,6 +21,36 @@ minetest.register_node("mt_block_and_asset_pack:peace_monument", {
     tiles = {"gray.png"},
     groups = { cracky=2 },
 })
+minetest.register_node("mt_block_and_asset_pack:marble_block_1", {
+    description = "Marble Block 1",
+    tiles = {"marble_block_1.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:marble_block_2", {
+    description = "Marble Block 2",
+    tiles = {"marble_block_2.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:marble_block_3", {
+    description = "Marble Block 3",
+    tiles = {"marble_block_3.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:brick_block_1", {
+    description = "Brick Block 1",
+    tiles = {"brick_block_1.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:brick_block_2", {
+    description = "Brick Block 2",
+    tiles = {"brick_block_2.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:wood_block_1", {
+    description = "Wood Block 1",
+    tiles = {"wood_block_1.png"},
+    groups = {cracky=3, stone=1}
+})
 minetest.register_node("mt_block_and_asset_pack:x_blue_block", {
     description = "X Blue Block",
     tiles = {"x_blue_block.png"},
