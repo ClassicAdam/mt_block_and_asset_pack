@@ -3,7 +3,7 @@ MT_BLOCK_AND_ASSET_PACK by CassicAdam
 This Minetest mod just contains a lot of random nodes.
 
 Some of the nodes are:
-- Various realist blocks
+- Various realistic blocks
 - Mugs, copper and tin
 - A plane sphere the size of a block
 - Salt and pepper shakers
