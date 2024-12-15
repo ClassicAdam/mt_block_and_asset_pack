@@ -1,25 +1,13 @@
--- Registering new nodes below
-
-minetest.register_node("mt_block_and_asset_pack:glowing_blue_light_animated", {
-	description = "Glowing Blue Light Animated",
-    light_source = 5,
-	tiles = {
-		{
-			name="glowing_blue_light_animated.png",
-			animation={type="vertical_frames", aspect_w=128, aspect_h=128, length=1.50},
-		}
-	},
+-- Block Nodes
+minetest.register_node("mt_block_and_asset_pack:straw_block_1", {
+    description = "Straw Block 1",
+    tiles = {"straw_block_1.png"},
     groups = {cracky=3, stone=1}
 })
-minetest.register_node("mt_block_and_asset_pack:peace_monument", {
-    description = "Peace Monument",
-    drawtype = "mesh",
-    mesh = "peace_monument.obj",
-    sunlight_propagates = true,
-    paramtype = "light",
-    paramtype2 = "facedir",
-    tiles = {"gray.png"},
-    groups = { cracky=2 },
+minetest.register_node("mt_block_and_asset_pack:green_with_gold_block", {
+    description = "Green with Gold Block",
+    tiles = {"green_with_gold_block.png"},
+    groups = {cracky=3, stone=1}
 })
 minetest.register_node("mt_block_and_asset_pack:popcorn_block_white", {
     description = "Popcorn Block White",
@@ -101,7 +89,6 @@ minetest.register_node("mt_block_and_asset_pack:orangeish_block_1", {
     tiles = {"orangeish_block.png"},
     groups = {cracky=3, stone=1}
 })
-
 minetest.register_node("mt_block_and_asset_pack:gray_block_1", {
     description = "Gray Block 1",
     tiles = {"gray_block.png"},
@@ -127,46 +114,6 @@ minetest.register_node("mt_block_and_asset_pack:redish_block_1", {
     tiles = {"redish_block.png"},
     groups = {cracky=3, stone=1}
 })
-minetest.register_node("mt_block_and_asset_pack:large_gray_bowl", {
-    description = "Large Gray Bowl",
-    drawtype = "mesh",
-    mesh = "large_bowl.obj",
-    sunlight_propagates = true,
-    paramtype = "light",
-    paramtype2 = "facedir",
-    tiles = {"gray.png"},
-    groups = { cracky=2 },
-})
-minetest.register_node("mt_block_and_asset_pack:large_white_bowl", {
-    description = "Large White Bowl",
-    drawtype = "mesh",
-    mesh = "large_bowl.obj",
-    sunlight_propagates = true,
-    paramtype = "light",
-    paramtype2 = "facedir",
-    tiles = {"off-white.png"},
-    groups = { cracky=2 },
-})
-minetest.register_node("mt_block_and_asset_pack:small_gray_bowl", {
-    description = "Small Gray Bowl",
-    drawtype = "mesh",
-    mesh = "small_bowl.obj",
-    sunlight_propagates = true,
-    paramtype = "light",
-    paramtype2 = "facedir",
-    tiles = {"gray.png"},
-    groups = { cracky=2 },
-})
-minetest.register_node("mt_block_and_asset_pack:small_white_bowl", {
-    description = "Small White Bowl",
-    drawtype = "mesh",
-    mesh = "small_bowl.obj",
-    sunlight_propagates = true,
-    paramtype = "light",
-    paramtype2 = "facedir",
-    tiles = {"off-white.png"},
-    groups = { cracky=2 },
-})
 minetest.register_node("mt_block_and_asset_pack:floor_decorative_1", {
     description = "Floor Decorative 1",
     tiles = {"floor_decorative_1.png"},
@@ -181,6 +128,24 @@ minetest.register_node("mt_block_and_asset_pack:floor_decorative_3", {
     description = "Floor Decorative 3",
     tiles = {"floor_decorative_3.png"},
     groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:floor_decorative_4", {
+    description = "Floor Decorative 4",
+    tiles = {"floor_decorative_4.png"},
+    groups = {cracky=3, stone=1}
+})
+
+-- Mesh Nodes
+minetest.register_node("mt_block_and_asset_pack:fire_hydrant", {
+    description = "Fire Hydrant",
+    drawtype = "mesh",
+    mesh = "fire_hydrant.obj",
+    sunlight_propagates = true,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    tiles = {"red.png"},
+    groups = { cracky=2 },
+
 })
 minetest.register_node("mt_block_and_asset_pack:sphere", {
     description = "Sphere",
@@ -237,6 +202,58 @@ minetest.register_node("mt_block_and_asset_pack:tin_mug", {
     groups = { cracky=2 },
 
 })
+minetest.register_node("mt_block_and_asset_pack:large_gray_bowl", {
+    description = "Large Gray Bowl",
+    drawtype = "mesh",
+    mesh = "large_bowl.obj",
+    sunlight_propagates = true,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    tiles = {"gray.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:large_white_bowl", {
+    description = "Large White Bowl",
+    drawtype = "mesh",
+    mesh = "large_bowl.obj",
+    sunlight_propagates = true,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    tiles = {"off-white.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:small_gray_bowl", {
+    description = "Small Gray Bowl",
+    drawtype = "mesh",
+    mesh = "small_bowl.obj",
+    sunlight_propagates = true,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    tiles = {"gray.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:small_white_bowl", {
+    description = "Small White Bowl",
+    drawtype = "mesh",
+    mesh = "small_bowl.obj",
+    sunlight_propagates = true,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    tiles = {"off-white.png"},
+    groups = { cracky=2 },
+})
+minetest.register_node("mt_block_and_asset_pack:peace_monument", {
+    description = "Peace Monument",
+    drawtype = "mesh",
+    mesh = "peace_monument.obj",
+    sunlight_propagates = true,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    tiles = {"gray.png"},
+    groups = { cracky=2 },
+})
+
+-- Animated Nodes
 minetest.register_node("mt_block_and_asset_pack:red_light_panel", {
 	description = "Red Light Panel",
 	drawtype = "signlike",
@@ -253,4 +270,15 @@ minetest.register_node("mt_block_and_asset_pack:red_light_panel", {
     },
     groups = {snappy=2,choppy=2,oddly_breakable_by_hand=3,flammable=3},
     walkable = false,
+})
+minetest.register_node("mt_block_and_asset_pack:glowing_blue_light_animated", {
+	description = "Glowing Blue Light Animated",
+    light_source = 5,
+	tiles = {
+		{
+			name="glowing_blue_light_animated.png",
+			animation={type="vertical_frames", aspect_w=128, aspect_h=128, length=1.50},
+		}
+	},
+    groups = {cracky=3, stone=1}
 })
