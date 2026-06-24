@@ -20,7 +20,7 @@ Please enjoy and share!
 
 ===== CHANGE LOG =====
 
-0.1.5
+0.1.7
 - Added three blocks with sand textures.
 
 0.1.6
