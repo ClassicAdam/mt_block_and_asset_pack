@@ -20,6 +20,9 @@ Please enjoy and share!
 
 ===== CHANGE LOG =====
 
+0.1.5
+- Added three blocks with sand textures.
+
 0.1.6
 - Added a mesh node of a fire hydrant.
 - Added some more blocks.

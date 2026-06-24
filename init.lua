@@ -1,4 +1,19 @@
 -- Block Nodes
+minetest.register_node("mt_block_and_asset_pack:sand_block_1", {
+    description = "Sand Block 1",
+    tiles = {"sand_block_1.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:2", {
+    description = "Sand Block 2",
+    tiles = {"sand_block_2.png"},
+    groups = {cracky=3, stone=1}
+})
+minetest.register_node("mt_block_and_asset_pack:sand_block_3", {
+    description = "Sand Block 3",
+    tiles = {"sand_block_3.png"},
+    groups = {cracky=3, stone=1}
+})
 minetest.register_node("mt_block_and_asset_pack:straw_block_1", {
     description = "Straw Block 1",
     tiles = {"straw_block_1.png"},
